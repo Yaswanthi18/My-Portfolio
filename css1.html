@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f0ff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #ddd;
+        }
+
+        nav {
+            background-color: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #4a90e2;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 24px;
+            border-left: 4px solid #4a90e2;
+            padding-left: 10px;
+        }
+
+        p, li {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ol, ul {
+            padding-left: 20px;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 20px 0;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            width: 250px; /* Adjust image size */
+            height: auto;
+        }
+
+        a {
+            color: #4a90e2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        strong {
+            color: #34495e;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+            filter: grayscale(100%);
+            transition: filter 0.3s ease;
+        }
+
+        .social-icons img:hover {
+            filter: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <hr>
+        <h1>Hello! Welcome to My Portfolio</h1>
+        <hr>
+    </header>
+
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+        
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#strengths">Strengths</a></li>
+            <li><a href="#declaration">Declaration</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h1>This is Yaswanthi</h1>
+            <p>This is my portfolio project created by using <strong>HTML, CSS.</strong></p>
+            <p>I am currently pursuing my final year B.Tech in <strong>Ideal Institute Of Technology.</strong></p>
+        </section>
+
+        <section id="skills">
+            <h1>MY SKILLS</h1>
+            <ol>
+                <li><strong>WEB TECH:</strong> Basics in JAVA, Python</li>
+                <li><strong>WEB DEVELOPMENT:</strong> HTML, CSS</li>
+                <li><strong>OTHER TOOLS:</strong> MS EXCEL, MS OFFICE, PPT</li>
+                <li><strong>DATABASE:</strong> SQL, MySQL</li>
+            </ol>
+        </section>
+
+        <section>
+            <center>
+                <img src="photo.jpg.jpeg" alt="My photo">
+            </center>
+        </section>
+
+        <section id="education">
+            <h1>MY EDUCATION</h1>
+            <ul style="list-style-type: circle;">
+                <li><p>Ideal Institute of Technology - 2022–2026</p></li>
+                <li><p>Aditya Junior College - 2020–2022</p></li>
+                <li><p>Madhuri Vidyalaya School - 2020</p></li>
+            </ul>
+        </section>
+
+        <section id="certifications">
+            <h1>CERTIFICATIONS</h1>
+            <p>I have completed the following courses:</p>
+            <ul style="list-style-type: circle;"> 
+                <li>Certification in Artificial Intelligence: By Skilldzire</li>
+                <li>Cloud Virtual Internship: By AWS</li>
+                <li>Data Engineering: By AWS</li>
+                <li>Web Full Stack Developer: By EduSkills</li>
+                <li>AI & ML Virtual Internship: By Google</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h1>PROJECTS</h1>
+            <p><strong>OrderOnTheGo Web App</strong> — SmartInternz Summer Internship<br>
+            Built a responsive food ordering platform using HTML, CSS, and JavaScript; improved user interaction and design as part of APSCHE-certified internship.</p>
+        </section>
+
+        <section id="publications">
+            <h1>PUBLICATIONS</h1>
+            <p><strong>Beyond Currency: The Versatile World of Blockchain Applications</strong><br>
+            Explored blockchain applications beyond currency, focusing on its use in sectors like supply chain, healthcare, and identity.</p>
+        </section>
+
+        <section id="links">
+            <h1>OTHER LINKS</h1>
+            <ul style="list-style-type: circle;">
+                <li><a href="https://www.hackerrank.com/profile/226K1A0532">Click Here To Open My Hackerrank Account</a></li>
+                <li><a href="https://www.linkedin.com/in/yaswanthi-kontham-4778b0289">Click Here To Open My LinkedIn Account</a></li>
+                <li><a href="https://github.com/Yaswanthi18">Here is my GitHub link</a></li>
+            </ul>
+        </section>
+
+        <section id="strengths">
+            <h1>STRENGTHS</h1>
+            <ul>
+                <li><strong>Effective communicator:</strong> Helps stand strong in a team and deliver effectively.</li>
+                <li><strong>Organized planner:</strong> Structured task execution and timely project completion.</li>
+                <li><strong>Solution oriented:</strong> Resolves problems efficiently and effectively.</li>
+                <li><strong>Collaborative spirit:</strong> Achieves shared goals through teamwork.</li>
+            </ul>
+        </section>
+
+        <section id="declaration">
+            <h1>DECLARATION</h1>
+            <p>I hereby declare that the above information is true to myself.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.hackerrank.com/profile/konthamyaswanthi">
+                <img src="https://cdn-icons-png.flaticon.com/512/160/160840.png" alt="Hackerrank">
+            </a>
+            <a href="https://www.linkedin.com/in/yaswanthi-kontham-4778b0289">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/Yaswanthi18">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
